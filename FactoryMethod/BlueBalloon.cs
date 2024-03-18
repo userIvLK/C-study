@@ -2,7 +2,7 @@
 
 namespace Csharp_study
 {
-    internal class BlueBalloon : IAbstractBalloon
+    public class BlueBalloon : IAbstractBalloon
     {
         string IAbstractBalloon.color => "blue"; 
     }

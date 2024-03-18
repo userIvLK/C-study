@@ -1,6 +1,6 @@
 ﻿namespace Csharp_study
 {
-    internal interface IAbstractBalloon
+    public interface IAbstractBalloon
     {
        string color {  get; } 
     }

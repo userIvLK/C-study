@@ -1,6 +1,6 @@
 ﻿namespace Csharp_study
 {
-    internal class RedFactory : IAbstractFactory //Creates red family objects
+    public class RedFactory : IAbstractFactory //Creates red family objects
     {
         IAbstractProduct IAbstractFactory.CreateSquare()
         {

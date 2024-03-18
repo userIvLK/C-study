@@ -1,6 +1,6 @@
 ﻿namespace Csharp_study
 {
-    internal class GreenFactory : IAbstractFactory //Creates green family objects
+    public class GreenFactory : IAbstractFactory //Creates green family objects
     {
         IAbstractProduct IAbstractFactory.CreateSquare()
         {

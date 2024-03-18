@@ -1,0 +1,33 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "CSharpTest/1.0.0": {
+        "runtime": {
+          "CSharpTest.dll": {}
+        }
+      },
+      "Csharp study/1.0.0": {
+        "runtime": {
+          "Csharp study.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSharpTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Csharp study/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,6 +1,6 @@
 ﻿namespace Csharp_study
 {
-    internal class Triangle : IAbstractProduct
+    public class Triangle : IAbstractProduct
     {
         public Triangle(string Color) { color = Color; }
         private readonly string color;

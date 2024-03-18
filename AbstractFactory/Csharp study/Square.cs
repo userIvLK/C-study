@@ -1,7 +1,7 @@
 ﻿namespace Csharp_study
 {
 
-    internal class Square : IAbstractProduct
+    public class Square : IAbstractProduct
     {
         public Square(string Color) { color = Color; }
         private readonly string color;

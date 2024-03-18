@@ -1,6 +1,6 @@
 ﻿namespace Csharp_study
 {
-    interface IAbstractProduct
+    public interface IAbstractProduct
     {
         public void PrintShape();
         public void PrintColor();

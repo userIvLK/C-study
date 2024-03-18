@@ -1,0 +1,15 @@
+C:\Users\ivank\Documents\GitHub\CSharp-study\AbstractFactory\Csharp study\bin\Debug\net7.0\Csharp study.exe
+C:\Users\ivank\Documents\GitHub\CSharp-study\AbstractFactory\Csharp study\bin\Debug\net7.0\Csharp study.deps.json
+C:\Users\ivank\Documents\GitHub\CSharp-study\AbstractFactory\Csharp study\bin\Debug\net7.0\Csharp study.runtimeconfig.json
+C:\Users\ivank\Documents\GitHub\CSharp-study\AbstractFactory\Csharp study\bin\Debug\net7.0\Csharp study.dll
+C:\Users\ivank\Documents\GitHub\CSharp-study\AbstractFactory\Csharp study\bin\Debug\net7.0\Csharp study.pdb
+C:\Users\ivank\Documents\GitHub\CSharp-study\AbstractFactory\Csharp study\obj\Debug\net7.0\Csharp study.csproj.AssemblyReference.cache
+C:\Users\ivank\Documents\GitHub\CSharp-study\AbstractFactory\Csharp study\obj\Debug\net7.0\Csharp study.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivank\Documents\GitHub\CSharp-study\AbstractFactory\Csharp study\obj\Debug\net7.0\Csharp study.AssemblyInfoInputs.cache
+C:\Users\ivank\Documents\GitHub\CSharp-study\AbstractFactory\Csharp study\obj\Debug\net7.0\Csharp study.AssemblyInfo.cs
+C:\Users\ivank\Documents\GitHub\CSharp-study\AbstractFactory\Csharp study\obj\Debug\net7.0\Csharp study.csproj.CoreCompileInputs.cache
+C:\Users\ivank\Documents\GitHub\CSharp-study\AbstractFactory\Csharp study\obj\Debug\net7.0\Csharp study.dll
+C:\Users\ivank\Documents\GitHub\CSharp-study\AbstractFactory\Csharp study\obj\Debug\net7.0\refint\Csharp study.dll
+C:\Users\ivank\Documents\GitHub\CSharp-study\AbstractFactory\Csharp study\obj\Debug\net7.0\Csharp study.pdb
+C:\Users\ivank\Documents\GitHub\CSharp-study\AbstractFactory\Csharp study\obj\Debug\net7.0\Csharp study.genruntimeconfig.cache
+C:\Users\ivank\Documents\GitHub\CSharp-study\AbstractFactory\Csharp study\obj\Debug\net7.0\ref\Csharp study.dll

@@ -1,6 +1,6 @@
 ﻿namespace Csharp_study
 {
-    internal class BlueFactory : IAbstractFactory
+    public class BlueFactory : IAbstractFactory
     {
         public IAbstractBalloon Create()
         {

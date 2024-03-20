@@ -5,11 +5,11 @@
     {
         public Square(string Color) { color = Color; }
         private readonly string color;
-        void IAbstractProduct.PrintShape()
+        public void PrintShape()
         {
             Console.WriteLine("I am square");
         }
-        void IAbstractProduct.PrintColor()
+        public void PrintColor()
         {
             Console.WriteLine($"I am {color}");
         }

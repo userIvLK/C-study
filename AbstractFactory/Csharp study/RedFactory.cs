@@ -2,11 +2,11 @@
 {
     public class RedFactory : IAbstractFactory //Creates red family objects
     {
-        IAbstractProduct IAbstractFactory.CreateSquare()
+        public IAbstractProduct CreateSquare()
         {
             return new Square("red");
         }
-        IAbstractProduct IAbstractFactory.CreateTriangle()
+        public IAbstractProduct CreateTriangle() 
         {
             return new Triangle("red");
         }

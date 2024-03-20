@@ -4,11 +4,11 @@
     {
         public Triangle(string Color) { color = Color; }
         private readonly string color;
-        void IAbstractProduct.PrintShape()
+        public void PrintShape()
         {
             Console.WriteLine("I am triangle");
         }
-        void IAbstractProduct.PrintColor()
+        public void PrintColor()
         {
             Console.WriteLine($"I am {color}");
         }

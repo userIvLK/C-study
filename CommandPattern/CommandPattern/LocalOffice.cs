@@ -15,7 +15,7 @@ namespace CommandPattern
         {
             placeHome.Execute(this);
         }
-        public void ReturnWarkers()
+        public void ReturnWоrkers()
         {
             placeHome.Undo(this);
         }

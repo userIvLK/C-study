@@ -7,21 +7,17 @@ class Program
     {
         var servs = new ServiceCollection()
             .AddSingleton<ILogger, Logger>()
-            .AddSingleton<ISalary, EquadorSalary>()
-            .AddSingleton<ITax, EquadorTax>()
-            .AddSingleton<SalaryCalculator>();
+            .AddTransient<ISalary, PolandSalary>()
+            .AddSingleton<ITax, PolandTax>()
+            .AddTransient<SalaryCalculator>();
 
         using var serviceProvider = servs.BuildServiceProvider();
 
-        SalaryCalculator? SC = serviceProvider.GetService<SalaryCalculator>();
-
-        decimal? salaryAmount;
-        salaryAmount = SC?.CalcNetSalary().Amount;
         List<decimal?> salary = new();
         Console.WriteLine();
         for(int i = 0; i<3; ++i)
         {
-            salary.Add(SC?.CalcNetSalary().Amount);
+            salary.Add(serviceProvider.GetService<SalaryCalculator>()?.CalcNetSalary().Amount);
         }
         Console.WriteLine();
         for(int i = 0; i<3; ++i)
@@ -29,5 +25,6 @@ class Program
             Console.WriteLine($"month {i + 1}");
             Console.WriteLine(salary[i]);
         }
+
     }
 }
